@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request,'Acceuil/index.html',locals())
+    return render(request,'Accueil/index.html',locals())
 
 def Contacts(request):
-    return render(request,'Acceuil/contact.html',locals())
+    return render(request,'Accueil/contact.html',locals())

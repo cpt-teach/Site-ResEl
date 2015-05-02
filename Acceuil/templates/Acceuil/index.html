@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>
+
+{% load static %}
+
+
+	<meta charset="utf-8">
+	<title>ResEl</title>
+	<meta name="Acceuil du Site" content="">
+	<meta name="Anas" content="">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="{{ STATIC_URL }}stylesheets/base.css">
+	<link rel="stylesheet" href="{{ STATIC_URL }}stylesheets/skeleton.css">
+	<link rel="stylesheet" href="{{ STATIC_URL }}stylesheets/layout.css">
+    <link rel="stylesheet" href="{{ STATIC_URL }}stylesheets/flexslider.css">
+    <link rel="stylesheet" href="{{ STATIC_URL }}stylesheets/prettyPhoto.css">
+    
+    <!-- JS -->
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="{{ STATIC_URL }}js/jquery.flexslider-min.js"></script>
+    <script src="{{ STATIC_URL }}js/scripts.js"></script>
+
+
+</head>
+<body class="wrap">
+
+	<header id="header" class="site-header" role="banner" style="position:relative; bottom:10px ; margin-bottom:10px; padding:-10px">
+    <div id="header-inner" class="container sixteen columns over" >
+    <hgroup class="one-third column alpha">
+    <h1 id="site-title" class="site-title">
+    <a href="#" id="logo"><img style="position:relative; bottom:-30px" src="{{ STATIC_URL }}images/resel_logo.png" alt="Logo ResEl" height="100" width="110"  /></a>
+    </h1>
+    </hgroup>
+    <nav id="main-nav" class="two thirds column omega">
+    <ul id="main-nav-menu" class="nav-menu" style="position:relative; top:20px" >
+    <li id="menu-item-1" class="current">
+    <a href="#"style="font-size:16px" >Acceuil</a>
+    </li>
+    <li id="menu-item-2">
+    <a href="#" style="font-size:16px" ;>Item 2</a>
+    </li>
+    <li id="menu-item-3">
+    <a href="#"style="font-size:16px">Item 3</a>
+    </li>
+    <li id="menu-item-4">
+    <a href="#"style="font-size:16px">Item 3</a>
+    </li>
+    <li id="menu-item-5">
+    <a href="#"style="font-size:16px">Item 4</a>
+    </li>
+    <li id="menu-item-6">
+    <a href="#"style="font-size:16px">Contact</a>
+    </li>
+    </ul>
+    </nav>
+    </div>
+    </header>
+    
+<!-- Slider JavaScript-->
+
+	<div class="container" style="position:relative; top:80px">
+    
+		<div class="sixteen columns">
+        
+        <div class="flex-container">
+        <div class="flexslider">
+  <ul class="slides">
+    <li>
+      <a href="News.html"><img src="{{ STATIC_URL }}images/news1.jpeg" alt="News 1" /></a>
+      <div class="flex-caption">
+				<h5><a href="#">News 1</a></h5>
+		
+				<p>Ceci est le news No 1 de ResEl, merci d'en tenir compte.</p>		
+	</div>
+    </li>
+    <li>
+      <a href="#"><img src="{{ STATIC_URL }}images/news2.jpeg" alt="News 2" /></a>
+      <div class="flex-caption" style="display:none;">
+				<h5><a href="#">News 2</a></h5>
+		
+				<p>Celle-ci vous pouvez vous en foutre royalement.</p>		
+	</div>
+    </li>
+    <li>
+      <a href="#"><img src="{{ STATIC_URL }}images/news3.jpeg" alt="News 3" /></a>
+      <div class="flex-caption" style="display:none;">
+				<h5><a href="#">News 3</a></h5>
+		
+				<p>Voilà Voilà... Vous avez comris le concept</p>		
+	</div>
+    </li>
+  </ul>
+</div>
+
+		
+
+
+</div>
+<!-- Description du site -->
+
+<div class="tagline">
+        <p>Le ResEl est l'association de <strong>TELECOM Bretagne</strong> qui s'occupe de la gestion du réseau des élèves. La plupart des élèves ont un ordinateur dans leur chambre et le ResEl leur offre la possibilité; d'accèder à Internet, de jouer en réseau, de s'échanger des données, de regarder la TNT et bien d'autres choses.
+
+Pour plus d'informations vous pouvez consulter les diffèrentes pages du site pour connaître la structure du réseau, obtenir de l'aide pour la configuration de vos logiciels libres favoris.</p>
+        </div>
+
+		</div><!-- container -->
+        
+        <hr>
+        
+        <section class="container">
+        
+		<div class="one-third column">
+			<h3><i class="icon-cog rounded"></i>CopyRight Design</h3>
+			<p>Site du ResEl 2, mise en place mars 2004. Design Enez, mars 2004</p>
+		</div>
+		<div class="one-third column">
+			<h3><i class="icon-home rounded"></i><i style="text-align:center;"> Elèves à l'extérieur du campus</i></h3>
+			<p>Vous pouvez consulter le site interne du ResEl et accéder aux services de <strong>mailing-listes</strong> et <strong>MyResEl</strong>, une fois authentifiés avec votre nom d'utilisateur et mot de passe ResEl. En cas de perte, nous contacter.</p>
+		</div>
+		<div class="one-third column">
+			<h3><i class="icon-resize-full rounded"></i>News moins fraîches</h3>
+			<p>.....</p>
+		</div>
+        
+        </section>
+        
+
+
+<footer>
+
+<div class="footer-inner container">
+
+
+<div class="social footer-columns one-third column">
+<h2><i class="icon-bullhorn icon-large"></i> Get Social</h2>
+<p>Want to stalk us? That would be super:</p>
+<ul>
+<li><a href="http://www.twitter.com/"><i class="icon-twitter-sign icon-large"></i> Twitter</a></li>
+<li><a href="http://www.facebook.com/"><i class="icon-facebook-sign icon-large"></i> Facebook</a></li>
+<li><a href="https://plus.google.com/"><i class="icon-google-plus-sign icon-large"></i> Google+</a></li>
+</ul>
+</div>
+
+<div class="footer-columns one-third column">
+<h2><i class="icon-book icon-large"></i> License</h2>
+
+</div>
+
+<div class="footer-columns one-third column">
+<h2><i class="icon-user icon-large"></i> About Us</h2>
+
+</div>
+
+</div>
+
+<div id="footer-base">
+<div class="container">
+<div class="eight columns">
+</div>
+
+<div class="eight columns far-edge">
+Design by
+</div>
+</div>
+</div>
+
+</footer>
+
+<!-- End Document
+================================================== -->
+
+<script src="{{ STATIC_URL }}js/jquery.prettyPhoto.js"></script>
+</body>
+</html>
+
